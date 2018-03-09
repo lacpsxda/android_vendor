@@ -27,7 +27,7 @@
 # input variables set the below the rest must be automatic
 source_tree="${ANDROID_BUILD_TOP}"; #path here must be inside home directory
 changelog_path_name=vendor/cm/CHANGELOG.mkdn #changelog file path/name.extension
-source_name="Resurrection Remix Nougat" #Name to display in changelog.md top before version
+source_name="Groovy Android Nougat" #Name to display in changelog.md top before version
 # input variables end
 
 if [ -z ${source_tree} ]; then
@@ -50,7 +50,7 @@ echo ""
 echo ${cya}" ▼ Generating (for last 90 days) github format changelog.."${txtrst}
 echo ""
 echo >> $Changelog;
-echo "# $source_name Version 5.8.5 Changelog"    >> $Changelog;
+echo "# $source_name Ver 7.1.2 Changelog"    >> $Changelog;
 echo '====================================================' >> $Changelog;
 echo >> $Changelog;
 

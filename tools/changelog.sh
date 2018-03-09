@@ -28,7 +28,7 @@
 
 source_tree="$ANDROID_BUILD_TOP"; #path here must be inside home directory
 changelog_path_name=CHANGELOG.mkdn #changelog file path/name.extension
-source_name="Resurrection Remix Nougat" #Name to display in changelog.md top before version
+source_name="Groovy Android Nougat" #Name to display in changelog.md top before version
 # input variables end
 
 export Changelog=$source_tree/$changelog_path_name
@@ -38,7 +38,7 @@ if [ -f $Changelog ];
  then
  	rm -f $Changelog
 fi
- 
+
 touch $Changelog
 
 if [ -z $days_to_log ];then
@@ -54,7 +54,7 @@ echo -e "";
 read -r -t 30 days_to_log || days_to_log=7
 fi
 echo >> $Changelog;
-echo " ▼ $source_name Ver 5.8.5 Changelog"    >> $Changelog;
+echo " ▼ $source_name Ver 7.1.2 Changelog"    >> $Changelog;
 echo '' >> $Changelog;
 echo >> $Changelog;
 
