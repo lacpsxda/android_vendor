@@ -83,6 +83,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DeskClock \
     NexusLauncher \
+    Lawnchair \
+    Lawnfeed \
     Wallpaper
 
 # DU Utils Library
@@ -183,10 +185,10 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     LiveLockScreenService \
-    WeatherProvider \
     OmniStyle \
     OmniSwitch \
     OmniJaws \
+    WeatherProvider \
     ThemeInterfacer
 
 
@@ -241,6 +243,14 @@ PRODUCT_PACKAGES += \
     font_log.png \
     libhealthd.cm
 endif
+
+# Lawnchair App
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/Lawnchair.apk:system/priv-app/Lawnchair/Lawnchair.apk
+
+# Lawnfeed App
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/Lawnfeed.apk:system/priv-app/Lawnfeed/Lawnfeed.apk
 
 # ExFAT support
 WITH_EXFAT ?= true
