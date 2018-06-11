@@ -165,8 +165,7 @@ PRODUCT_PACKAGES += \
     WeatherProvider \
     OmniJaws \
     OmniStyle \
-    ResurrectionOTA \
-    ResurrectionStats
+    ResurrectionOTA
 
 # Berry styles
 PRODUCT_PACKAGES += \
