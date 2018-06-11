@@ -1,5 +1,5 @@
 	
-	● Resurrection Remix OS Oreo
+	● Features
 	
 	● Crowdin for translations : https://crowdin.com/project/resurrectionremix/
 	

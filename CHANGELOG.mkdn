@@ -1,5 +1,5 @@
 
-# Resurrection Remix Oreo Version 6.1.0 Changelog
+# Changelog
 
 
 06-11-2018
