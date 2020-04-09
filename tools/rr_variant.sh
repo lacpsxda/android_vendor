@@ -32,13 +32,13 @@ echo -e ${blu}" 〉 3- Nightly "${txtrst}${red}"     ︱ Only for the official d
 echo -e "";
 echo -e ${blu}" 〉 4- Weekly "${txtrst}${red}"      ︱ Only for the official weekly builds by the maintainers"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 5- Release "${txtrst}${red}"     ︱ Only for the official releases by the GA-Team"${txtrst}
+echo -e ${blu}" 〉 5- Release "${txtrst}${red}"     ︱ Only for the official releases by the GD-Team"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 6- Milestone "${txtrst}${red}"   ︱ Only for the milestone releases by the GA-Team"${txtrst}
+echo -e ${blu}" 〉 6- Milestone "${txtrst}${red}"   ︱ Only for the milestone releases by the GD-Team"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 7- Experimental "${txtrst}${red}"︱ Only for the experimental releases by the GA-Team"${xtrst}
+echo -e ${blu}" 〉 7- Experimental "${txtrst}${red}"︱ Only for the experimental releases by the GD-Team"${xtrst}
 echo -e "";
-echo -e ${blu}" 〉 8- Final "${txtrst}${red}"       ︱ Only for the final releases by the GA-Team"${xtrst}
+echo -e ${blu}" 〉 8- Final "${txtrst}${red}"       ︱ Only for the final releases by the GD-Team"${xtrst}
 echo -e "";
 echo -e ${blu}" 〉 30/sec Time-out"${txtrst}${red}" ︱ Default option"${txtrst}
 echo -e "";
