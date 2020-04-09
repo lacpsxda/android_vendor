@@ -27,7 +27,7 @@
 # input variables set the below the rest must be automatic
 source_tree="${ANDROID_BUILD_TOP}"; #path here must be inside home directory
 changelog_path_name=vendor/cm/CHANGELOG.mkdn #changelog file path/name.extension
-source_name="Groovy Android Nougat" #Name to display in changelog.md top before version
+source_name="Gold Droid Nougat" #Name to display in changelog.md top before version
 # input variables end
 
 if [ -z ${source_tree} ]; then
