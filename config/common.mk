@@ -139,6 +139,7 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
+    DeskClock \
     Trebuchet \
     AudioFX \
     Eleven \
