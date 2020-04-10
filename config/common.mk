@@ -207,14 +207,6 @@ PRODUCT_PACKAGES += \
     libhealthd.cm
 endif
 
-# Lawnchair App
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/app/Lawnchair.apk:system/priv-app/Lawnchair/Lawnchair.apk
-
-# Lawnfeed App
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/app/Lawnfeed.apk:system/priv-app/Lawnfeed/Lawnfeed.apk
-
 # ExFAT support
 WITH_EXFAT ?= true
 ifeq ($(WITH_EXFAT),true)
