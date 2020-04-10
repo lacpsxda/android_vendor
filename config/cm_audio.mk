@@ -62,9 +62,9 @@ PRODUCT_COPY_FILES += \
 # Ringtones
 ifeq ($(TARGET_NEEDS_BOOSTED_SOUNDS),true)
 PRODUCT_COPY_FILES += \
-	$(RINGTONE_PATH)/boosted/Boxbeat.ogg:system/media/audio/ringtones/Boxbeat.ogg \
-	$(RINGTONE_PATH)/boosted/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
-	$(RINGTONE_PATH)/boosted/Resurrection.mp3:system/media/audio/ringtones/Resurrection.mp3
+    $(RINGTONE_PATH)/boosted/Boxbeat.ogg:system/media/audio/ringtones/Boxbeat.ogg \
+    $(RINGTONE_PATH)/boosted/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
+    $(RINGTONE_PATH)/boosted/Resurrection.mp3:system/media/audio/ringtones/Resurrection.mp3
 
 else
 PRODUCT_COPY_FILES += \
