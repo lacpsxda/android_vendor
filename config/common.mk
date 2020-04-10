@@ -49,11 +49,6 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    DeskClock \
-    NexusLauncher \
-    Lawnchair \
-    Lawnfeed \
-    Wallpaper
 
 # DU Utils Library
 PRODUCT_BOOT_JARS += \
@@ -144,7 +139,6 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    ResurrectionOTA \
     Trebuchet \
     AudioFX \
     Eleven \
